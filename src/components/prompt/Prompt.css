@@ -1,0 +1,23 @@
+.form {
+    background-color: transparent;
+    color: #cecece;
+    font-family: 'Inconsolata', monospace;   
+    border: 0;
+    font-size: 24px;
+    width: 60%;
+    margin-left: 5px;
+}
+
+.form:focus {
+    outline: none;
+}
+
+.input {
+    margin-left: 10px;
+    color: #cecece;
+}
+
+.location {
+    color: #9b9b9b;
+    margin-left: 10px;
+}

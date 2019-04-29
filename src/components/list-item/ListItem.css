@@ -1,0 +1,10 @@
+.item {
+    color: #ff05b4;
+    text-decoration-color: #ff05b4;
+    margin-right: 10px;
+}
+
+.item:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
