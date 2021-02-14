@@ -1,13 +1,14 @@
 import React from "react";
-import Navigation from "./components/navigation/Navigation";
 import "./App.css";
+import IconContainer from "./components/IconContainer";
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <Navigation/>
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div className="App">
+      <div>Ron Laniado</div>
+      <IconContainer />
+    </div>
+  );
+};
+
+export default App;
